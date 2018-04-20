@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainInterface"
+    android:background="@drawable/nen">
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="212dp"
+        android:background="#61fa09"
+        android:text="Ok"
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="369dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="59dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btnOk"
+        android:layout_marginEnd="60dp"
+        android:background="@color/colorAccent"
+        android:text="Cancel"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="369dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp" />
+
+    <Button
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="126dp"
+        android:text="Bạn muốn tưới cây ?"
+        android:textColor="#DC143C"
+        android:background="#00FFFF"
+        android:textSize="35dp"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="320dp"
+        android:layout_height="63dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:text="Chung tay vì môi trường xanh sạch đẹp"
+        android:textColor="#7FFF00"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnOk"
+        android:layout_alignTop="@+id/textView4"
+        android:text="I"
+        android:textColor="#DC143C"
+        android:textSize="50dp"
+        android:layout_alignLeft="@+id/btnOk" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="49dp"
+        android:layout_marginEnd="15dp"
+        android:text="HUST"
+        android:textColor="#DC143C"
+        android:textSize="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="141dp"
+        android:layout_height="137dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="18dp"
+        android:layout_toStartOf="@+id/button2"
+        app:srcCompat="@drawable/heart1"
+        android:layout_toLeftOf="@+id/button2" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="113dp"
+        android:layout_height="117dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="109dp"
+        android:layout_marginStart="111dp"
+        app:srcCompat="@drawable/birt"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="111dp" />
+
+</RelativeLayout>
